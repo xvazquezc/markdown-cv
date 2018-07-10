@@ -1,1 +1,28 @@
 markdown:   kramdown
+
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: ascending
+  use_raw_bibtex_entry: true
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{ reference | replace_first: 'Vázquez, X.', '<strong>Vázquez, X.</strong>'  | replace_first: 'Vázquez-Campos, X.', '<strong>Vázquez-Campos, X.</strong>' | replace_first: 'Vázquez Campos, X.', '<strong>Vázquez Campos, X.</strong>' | replace: '<i>', '<em>' | replace: '</i>', '</em>' }}"
+
+#  bibtex_filters: latex
+#  bibtex_filters: superscript
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  bibliography_list_tag: "ol"
+  bibliography_item_tag: "p"
+
+  query: "@*"

@@ -1,8 +1,9 @@
 ---
 layout: cv
 title: David Whipp's CV
+bibliography: test.bib
 ---
-# David Whipp
+# Xabier Vázquez-Campos
 Associate professor, University of Helsinki
 
 Institute of Seismology, Department of Geosciences and Geography<br/>
@@ -12,10 +13,10 @@ FI-00014 University of Helsinki, Finland<br/>
 <a href="firstname.lastname@helsinki.fi">firstname.lastname@helsinki.fi</a> - +358 (0)2 941 51617
 
 <div id="webaddress">
-  <a href="https://davewhipp.github.io"><i class="fas fa-home"></i> davewhipp.github.io</a> - 
-  <a href="https://wiki.helsinki.fi/x/3xjABg"><i class="fas fa-users"></i> wiki.helsinki.fi/x/3xjABg</a><br/> 
-  <a href="https://twitter.com/dave_whipp"><i class="fab fa-twitter"></i> @dave_whipp</a> - 
-  <a href="https://github.com/davewhipp"><i class="fab fa-github"></i> davewhipp</a> - 
+  <a href="https://davewhipp.github.io"><i class="fas fa-home"></i> davewhipp.github.io</a> -
+  <a href="https://wiki.helsinki.fi/x/3xjABg"><i class="fas fa-users"></i> wiki.helsinki.fi/x/3xjABg</a><br/>
+  <a href="https://twitter.com/dave_whipp"><i class="fab fa-twitter"></i> @dave_whipp</a> -
+  <a href="https://github.com/davewhipp"><i class="fab fa-github"></i> davewhipp</a> -
   <a href="https://youtube.com/channel/UCIvX6ZFgUP5DgvBSomhz-yw"><i class="fab fa-youtube"></i> YouTube channel</a>
 </div>
 
@@ -30,7 +31,7 @@ FI-00014 University of Helsinki, Finland<br/>
 ## Experience
 
 `2017-present`
-**Associate professor**, *Department of Geosciences and Geography, University of Helsinki*, Helsinki, Finland.
+**Postdoctoral fellow**, *School of Biotechnology and Biomolecular Sciences, University of New South Wales*, Sydney, Australia.
 
 `2013-2018`
 **Adjunct of the Faculty of Graduate Studies**, *Department of Earth Sciences, Dalhousie University*, Halifax, NS, Canada.
@@ -54,11 +55,13 @@ FI-00014 University of Helsinki, Finland<br/>
 
 *Publication list also available [online](https://scholar.google.fi/citations?user=FvYhWOAAAAAJ). Asterisks indicate student lead authors.*
 
-### In review
+### In review [{% bibliography_count -f references %}]
+
+{% bibliography %}
 
 A. Koptev, T. A. Ehlers, M. Nettesheim, and D. M. Whipp. Impact of 3D subduction geometry and upper plate rheology on localized deformation in orogen syntaxes. *Earth and Planetary Science Letters*, in review.
 
-M. Nettesheim\*, T. A. Ehlers, D. M. Whipp, and A. Koptev. The influence of subducting slab advance and erosion on overriding plate deformation in orogen syntaxes. *Solid Earth Discuss*. doi: [10.5194/se-2018-14](https://doi.org/10.5194/se-2018-14), in review. 
+M. Nettesheim\*, T. A. Ehlers, D. M. Whipp, and A. Koptev. The influence of subducting slab advance and erosion on overriding plate deformation in orogen syntaxes. *Solid Earth Discuss*. doi: [10.5194/se-2018-14](https://doi.org/10.5194/se-2018-14), in review.
 
 ### Journals
 
@@ -452,9 +455,5 @@ Birth date: 9 March 1980
 
 Citizenship: USA
 
-Family: Married, two children
-
 
 <br/>Last updated: June 2018<br/><br/>
-
-
