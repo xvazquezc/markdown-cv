@@ -1,91 +1,87 @@
 ---
 layout: cv
-title: David Whipp's CV
-bibliography: test.bib
+title: Xabier Vázquez-Campos' CV
 ---
 # Xabier Vázquez-Campos
-Associate professor, University of Helsinki
+Postdoctoral research fellow, University of New South Wales
 
-Institute of Seismology, Department of Geosciences and Geography<br/>
-P.O. Box 68 (Gustaf Hällströmin katu 2b)<br/>
-FI-00014 University of Helsinki, Finland<br/>
+NSW Systems Biology Initiative, School of Biotechnology and Biomolecular Sciences<br/>
+University of New South Wales<br/>
+2052 Sydney - NSW, Australia<br/>
 
-<a href="firstname.lastname@helsinki.fi">firstname.lastname@helsinki.fi</a> - +358 (0)2 941 51617
+<a href="x.vazquezcampos@unsw.edu.au">x.vazquezcampos@unsw.edu.au</a>
+<!-- - +358 (0)2 941 51617 -->
 
 <div id="webaddress">
-  <a href="https://davewhipp.github.io"><i class="fas fa-home"></i> davewhipp.github.io</a> -
-  <a href="https://wiki.helsinki.fi/x/3xjABg"><i class="fas fa-users"></i> wiki.helsinki.fi/x/3xjABg</a><br/>
-  <a href="https://twitter.com/dave_whipp"><i class="fab fa-twitter"></i> @dave_whipp</a> -
-  <a href="https://github.com/davewhipp"><i class="fab fa-github"></i> davewhipp</a> -
-  <a href="https://youtube.com/channel/UCIvX6ZFgUP5DgvBSomhz-yw"><i class="fab fa-youtube"></i> YouTube channel</a>
+  <!-- <a href="https://davewhipp.github.io"><i class="fas fa-home"></i> davewhipp.github.io</a> - -->
+  <a href="https://orcid.org/0000-0003-1134-5058"><i class="ai ai-orcid"></i> ORCID</a> -
+  <a href="https://www.researchgate.net/profile/Xabier_Vazquez_Campos"><i class="ai ai-researchgate"></i> ResearchGate</a> -
+  <a href="https://publons.com/a/1202647/"><i class="ai ai-publons"></i> Publons</a> -
+  <a href="https://scholar.google.com.au/citations?hl=en&user=vkyQl00AAAAJ"><i class="ai ai-google-scholar"></i> Google Scholar</a> -
+  <a href="https://figshare.com/authors/Xabier_V_zquez-Campos/2870327"><i class="ai ai-figshare"></i> figshare</a> -
+  <a href="https://profiles.impactstory.org/u/0000-0003-1134-5058"><i class="ai ai-impactstory"></i> Impactstory</a><br/>
+  <a href="https://bitbucket.org/xvazquezc/"><i class="fab fa-bitbucket"></i> xvazquezc</a> -
+  <a href="https://github.com/xvazquezc"><i class="fab fa-github"></i> xvazquezc</a> -
+  <a href="https://twitter.com/xabivc"><i class="fab fa-twitter"></i> @XabiVC</a>
+  <!-- <a href="https://youtube.com/channel/UCIvX6ZFgUP5DgvBSomhz-yw"><i class="fab fa-youtube"></i> YouTube channel</a> -->
 </div>
 
 ## Education
 
-`2003-2008`
-**Ph.D., Geology**, *University of Michigan*, Ann Arbor, MI, USA.
+`2011-2015`
+**Ph.D., Environmental Engineering**, *University of New South Wales*, Sydney, NSW, Australia.<br/>
+Thesis: *Geomicrobiological aspects of the (bio)leaching of weathered low-grade uranium ore*
 
-`1998-2002`
-**B.S., Geology (Physics minor)**, *University of Michigan*, Ann Arbor, MI, USA.
+`2007-2008`
+**M.Sc., Microbiology**, *Autonomous University of Madrid*, Madrid, Spain.<br/>
+Thesis: *Set-up of molecular ecology methodologies for the monitoring of microbial populations in an indirect reactor for the bioleaching of Zn from polymetallic sulfide concentrates* [in Spanish]
+
+`2002-2007`
+**Licentiate, Biology**, *University of Vigo*, Vigo, Pontevedra, Spain.<br/>
+5-year degree. Equivalent to B.Sc. in Biology plus M.Sc. in Biotechnology
+
 
 ## Experience
 
 `2017-present`
-**Postdoctoral fellow**, *School of Biotechnology and Biomolecular Sciences, University of New South Wales*, Sydney, Australia.
+**Postdoctoral fellow**, *School of Biotechnology and Biomolecular Sciences, University of New South Wales*, Sydney, NSW, Australia.
 
-`2013-2018`
-**Adjunct of the Faculty of Graduate Studies**, *Department of Earth Sciences, Dalhousie University*, Halifax, NS, Canada.
+`2015-2017`
+**Postdoctoral fellow**, *Water Research Centre, University of New South Wales*, Sydney, NSW, Australia.
 
-`2013-2016`
-**Assistant professor**, *Department of Geosciences and Geography, University of Helsinki*, Helsinki, Finland.
+`2011-2011`
+**Research assistant**, *Water Research Centre, University of New South Wales*, Sydney, NSW, Australia.
 
-`2009-2012`
-**Postdoctoral fellow**, *Department of Oceanography, Dalhousie University*, Halifax, NS, Canada.
+`2010-2011`
+**Research assistant**, *Department of Chemical Engineering, University of Vigo*, Vigo, Pontevedra, Spain.
 
-`2008-2009`
-**Postdoctoral fellow**, *Géosciences Rennes, University of Rennes 1*, Rennes, France.
+`2006-2007`
+**Junior researcher**, *Department of Chemical Engineering, University of Vigo*, Vigo, Pontevedra, Spain.
 
-`2007`
-**Geoscientist (intern)**, *ExxonMobil Exploration Company*, Houston, TX, USA.
-
-`2003-2008`
-**Research assistant**, *Department of Geological Sciences, University of Michigan*, Ann Arbor, MI, USA.
+`2006-2006`
+**Lecturer's assistant**, *Faculty of Biology, University of Vigo*, Vigo, Pontevedra, Spain.
 
 ## Publications
 
-*Publication list also available [online](https://scholar.google.fi/citations?user=FvYhWOAAAAAJ). Asterisks indicate student lead authors.*
+*Publication list also available [online](https://scholar.google.com.au/citations?hl=en&user=vkyQl00AAAAJ).*
 
-### In review [{% bibliography_count -f references %}]
+{% if review.bib %}
 
-{% bibliography %}
+### In review [{% bibliography_count --file review -f references %}]
 
-A. Koptev, T. A. Ehlers, M. Nettesheim, and D. M. Whipp. Impact of 3D subduction geometry and upper plate rheology on localized deformation in orogen syntaxes. *Earth and Planetary Science Letters*, in review.
+{% bibliography --file review %}
+{% endif %}
 
-M. Nettesheim\*, T. A. Ehlers, D. M. Whipp, and A. Koptev. The influence of subducting slab advance and erosion on overriding plate deformation in orogen syntaxes. *Solid Earth Discuss*. doi: [10.5194/se-2018-14](https://doi.org/10.5194/se-2018-14), in review.
+### Journals [{% bibliography_count --file papers %}]
 
-### Journals
 
-`2016`
-K. R. Landry\*, I. Coutand, D. M. Whipp, D Grujic, and J. K. Hourigan. Late Neogene tectonically driven crustal exhumation of the Sikkim Himalaya: Insights from inversion of multithermochronologic data. *Tectonics*, *35*(3):833–859. doi: [10.1002/2015TC004102](https://dx.doi.org/10.1002/2015TC004102), 2016.
+{% bibliography --file papers %}
 
-`2014`
-D. M. Whipp, C. Beaumont, and J. Braun. Feeding the 'aneurysm': Orogen-parallel mass transport into Nanga Parbat and the western Himalayan syntaxis. *Journal of Geophysical Research: Solid Earth*, *119*(6):5077–5096. doi: [10.1002/2013JB010929](https://dx.doi.org/10.1002/2013JB010929), 2014.
 
-M. A. Murphy, M. H. Taylor, J. Gosse, C. R. P. Silver, D. M. Whipp, and C. Beaumont. Limit of strain partitioning in the Himalaya marked by large earthquakes in western Nepal. *Nature Geoscience*, *7*(1):38–42. doi: [10.1038/ngeo2017](https://dx.doi.org/10.1038/ngeo2017), 2014.
+## Invited talks
 
-I. Coutand, D. M. Whipp, D. Grujic, M. Bernet, M. G. Fellin, B. Bookhagen, K. R. Landry, S. K. Ghalley, and C. Duncan. Geometry and kinematics of the Main Himalayan Thrust and Neogene crustal exhumation in the Bhutanese Himalaya derived from inversion of multithermochronologic data. *Journal of Geophysical Research: Solid Earth*, *119*(2):1446–1481. doi: [10.1002/2013JB010891](https://dx.doi.org/10.1002/2013JB010891), 2014.
+{% bibliography --file invited_talks %}
 
-`2009`
-D. M. Whipp, T. A. Ehlers, J. Braun, and C. D. Spath. Effects of exhumation kinematics and topographic evolution on detrital thermochronometer data. *Journal of Geophysical Research: Earth Surface*, *114*(F4). doi: [10.1029/2008JF001195](https://dx.doi.org/10.1029/2008JF001195), 2009.
-
-T. F. Schildgen, T. A. Ehlers, D. M. Whipp, M. C. van Soest, K. X. Whipple, and K. V. Hodges. Quantifying canyon incision and Andean Plateau surface uplift, southwest Peru: A thermochronometer and numerical modeling approach. *Journal of Geophysical Research: Earth Surface*, *114*(F4). doi: [10.1029/2009JF001305](https://dx.doi.org/10.1029/2009JF001305), 2009.
-
-`2007`
-D. M. Whipp and T. A. Ehlers. Influence of groundwater flow on thermochronometer-derived exhumation rates in the central Nepalese Himalaya. *Geology*, *35*(9):851–854. doi: [10.1130/G23788A.1](https://dx.doi.org/10.1130/G23788A.1),  2007.
-
-K. W. Huntington, T. A. Ehlers, K. V. Hodges, and D. M. Whipp. Topography, exhumation pathway, age uncertainties, and the interpretation of erosion rates from thermochronometer data. *Tectonics*, *26*(4) . doi: [10.1029/2007TC002108](http://dx.doi.org/10.1029/2007TC002108), 2007.
-
-D. M. Whipp, T. A. Ehlers, A. E. Blythe, K. W. Huntington, K. V. Hodges, and D. W. Burbank. Plio-Quaternary exhumation history of the central Nepalese Himalaya: 2. Thermo-kinematic and thermochronometer age prediction model. *Tectonics*, *26*(3). doi: [10.1029/2006TC001991](https://dx.doi.org/10.1029/2006TC001991), 2007.
 
 ## Awards and honors
 
@@ -146,34 +142,7 @@ Nested DOUAR: Coupling high and low resolution finite element models to solve 3D
 **Compute Canada National Resource Allocation**, *Compute Canada*, Toronto, ON, Canada, 109 core-years. Co-PI with J. Allen and C. Beaumont.<br/>
 Modelling the three-dimensional dynamics of geologic systems: From sub-sea salt to the Himalayan peaks
 
-## Invited talks
 
-`2017`
-**University of Lausanne**, *Department seminar, Institute of Earth Sciences*, Lausanne, Switzerland.
-
-**European Geosciences Union General Assembly**, *Session TS7.8: Mountain building processes, from top to bottom: the Zagros-Himalaya-Tibet orogenic system*, Vienna, Austria.
-
-`2016`
-**American Geophysical Union Fall Meeting**, *Session T42B: Sedimentary Basin Records of Convergent Orogenic Systems*, San Francisco, CA, USA.
-
-**University of Potsdam**, *Colloquium talk, Institute of Earth and Environmental Science*, Potsdam, Germany.
-
-`2014`
-**American Geophysical Union Fall Meeting**, *Session EP23G: From High Peaks to Level Plains: Using Thermochronometry to Study the Evolving Geosphere*, San Francisco, CA, USA.
-
-`2013`
-**University of Tübingen**, *Earth System Dynamics Research Group seminar, Department of Geosciences*, Tübingen, Germany.
-
-`2011`
-**Joseph Fourier University**, *Grand séminaire, Institut des Sciences de la Terre*, Grenoble, France.
-
-`2009`
-**Geological Society of America Annual Meeting**, *Session T46: Linking Shallow to Deep Crustal Processes in Arc and Collisional Orogens*, Portland, OR, USA.
-
-**Joseph Fourier University**, *Seminar talk, Laboratoire de géodynamique des chaînes alpines*, Grenoble, France.
-
-`2007`
-**Dalhousie University**, *Department seminar, Department of Earth Sciences*, Halifax, NS, Canada.
 
 ## Conference activity
 
@@ -335,45 +304,22 @@ Co-supervised with Ilmo Kukkonen
 **Niclas Blomqvist**, *Department of Geosciences and Geography, University of Helsinki*, Helsinki, Finland.<br/>
 Now: Geologist, Pöyry Finland Oy
 
-### Bachelors theses
+<!-- ### Bachelors theses
 
 `2016–2018`
-**Lotta Ylä-Mella**, *Department of Physics, University of Helsinki*, Helsinki, Finland.
+**Lotta Ylä-Mella**, *Department of Physics, University of Helsinki*, Helsinki, Finland. -->
 
-`2016–2017`
-**Jennifer Hällsten**, *Department of Geosciences and Geography, University of Helsinki*, Helsinki, Finland.<br/>
-Co-supervised with Jorina Schütt
 
-### Supervisory committee
+<!-- ### Supervisory committee
 
 `2011–2016`
 **Janice Allen**, *Doctoral student, Dept. of Earth Sciences, Dalhousie University*, Halifax, NS, Canada.<br/>
-Now: Imperial Oil, Canada
+Now: Imperial Oil, Canada -->
 
-`2012–2015`
-**Gabe Creason**, *Masters student, *Department of Earth Sciences, Dalhousie University*, Halifax, NS, Canada.<br/>
-Now: Ph.D. student, Oregon State University
-
-`2011–2014`
-**Kyle Landry**, *Masters student, Department of Earth Sciences, Dalhousie University*, Halifax, NS, Canada.
-
-### Undergraduate research
+<!-- ### Undergraduate research
 `2017-present`
-**Leevi Tuikka**, *Department of Physics, University of Helsinki*, Helsinki, Finland.
+**Leevi Tuikka**, *Department of Physics, University of Helsinki*, Helsinki, Finland. -->
 
-`2016`
-**Miro Pütz**, *Institute of Geophysics, University of Hamburg*, Hamburg, Germany.
-
-`2014`
-**Niclas Blomqvist**, *Department of Geosciences and Geography, University of Helsinki*, Helsinki, Finland.
-
-`2006–2008`
-**Chris Spath**, *Department of Electrical Engineering and Computer Science, University of Michigan*, Ann Arbor, MI, USA.<br/>
-Co-supervised with Todd Ehlers
-
-`2004`
-**Nick Olds**, *Department of Geological Sciences, University of Michigan*, Ann Arbor, MI, USA.<br/>
-Co-supervised with Todd Ehlers
 
 ## Professional service
 
@@ -434,7 +380,7 @@ Introduction to the geology and culture of Nepal related to reading of Jon Kraka
 
 English: Native
 
-Finnish:  CEFR level A1.3
+Finnish: CEFR level A1.3
 
 French: Basic knowledge
 

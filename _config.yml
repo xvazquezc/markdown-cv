@@ -1,25 +1,32 @@
 markdown:   kramdown
 
 scholar:
-  style: apa
+  style: ./_bibliography/apa.csl
   locale: en
 
-  sort_by: year
-  order: ascending
+  group_by: none
+  sort_by: date
+  bibliography_group_tag: ''
+
+  order: descending
   use_raw_bibtex_entry: true
 
   source: ./_bibliography
-  bibliography: references.bib
-  bibliography_template: "{{ reference | replace_first: 'Vázquez, X.', '<strong>Vázquez, X.</strong>'  | replace_first: 'Vázquez-Campos, X.', '<strong>Vázquez-Campos, X.</strong>' | replace_first: 'Vázquez Campos, X.', '<strong>Vázquez Campos, X.</strong>' | replace: '<i>', '<em>' | replace: '</i>', '</em>' }}"
+#  bibliography: references.bib
+  bibliography_template: "{{ reference | replace_first: 'Vázquez, X.', '<strong>Vázquez, X.</strong>'  | replace_first: 'Vázquez-Campos, X.', '<strong>Vázquez-Campos, X.</strong>' | replace_first: 'Vázquez Campos, X.', '<strong>Vázquez Campos, X.</strong>' | replace: '<i>', '<em>' | replace: '</i>', '</em>' | replace: 'h2', 'code' }} {% if entry.url %}<a href='{{ entry.url}}'>Link</a>.{% endif %}"
 
 #  bibtex_filters: latex
-#  bibtex_filters: superscript
+  bibtex_filters:
+    - superscript
+    - smallcaps
+    - italics
+    - latex
 
   replace_strings: true
   join_strings:    true
 
   details_dir:    bibliography
-  details_layout: bibtex.html
+#  details_layout: bibtex.html
   details_link:   Details
 
   bibliography_list_tag: "ol"
